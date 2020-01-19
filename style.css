@@ -110,6 +110,7 @@ nav {
   /*background-color: white;*/
   display: flex;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 nav ul {
@@ -132,6 +133,7 @@ nav a {
   text-transform: uppercase;
   text-decoration: none;
   color: black;
+  width: 25%;
 }
 
 nav form {
