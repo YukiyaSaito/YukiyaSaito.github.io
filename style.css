@@ -105,37 +105,38 @@ nav, article, aside, footer {
   padding: 1%;
 }
 
-nav {
+.nav {
   height: 50px;
   /*background-color: white;*/
   display: flex;
   margin-bottom: 10px;
+  overflow: auto;
   width: 100%;
 }
 
-nav ul {
+.nav ul {
   padding: 0;
   list-style-type: none;
   flex: 2;
   display: flex;
 }
 
-nav li {
+.nav li {
   display: inline;
   text-align: center;
   flex: 1;
 }
 
-nav a {
+.nav a {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 17px;
   text-transform: uppercase;
   text-decoration: none;
   color: black;
   width: 25%;
 }
 
-nav form {
+.nav form {
   flex: 1;
   display: flex;
   align-items: center;
