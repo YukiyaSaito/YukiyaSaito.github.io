@@ -17,24 +17,53 @@ body {
 
 /* || typography */
 h1 { 
-  font-family: Open Sans Condensed; 
-  font-size: 4rem; 
+  font-family: Georgia, Times, Times New Roman, serif; 
+  font-size: 23px; 
   font-style: normal; 
   font-variant: normal; 
   font-weight: 700; 
-  line-height: 1.6; 
-  text-align: center;
+  line-height: 23px; 
+}
+h2 { 
+  font-family: Georgia, Times, Times New Roman, serif; 
+  font-size: 17px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 23px; 
+}
+h3 { 
+  font-family: Georgia, Times, Times New Roman, serif; 
+  font-size: 17px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 23px;
 } 
-h3 { font-family: Open Sans Condensed; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; } 
-p { font-family: Open Sans Condensed; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } 
-blockquote { font-family: Open Sans Condensed; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } 
-pre { font-family: Open Sans Condensed; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; }
-h2 {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #2a2a2a;
+p { 
+  font-family: Georgia, Times, Times New Roman, serif; 
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 23px; } 
+blockquote { 
+  font-family: Georgia, Times, Times New Roman, serif; 
+  font-size: 17px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 23px; } 
+pre { 
+  font-family: Georgia, Times, Times New Roman, serif; 
+  font-size: 11px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 23px; 
 }
 
-p, input, li {
+input, li {
   font-family: 'Open Sans Condensed', sans-serif;
   color: #2a2a2a;
 }
@@ -46,16 +75,16 @@ p, input, li {
   text-shadow: 2px 2px 10px black;
 }*/
 
-h2 {
+/*h2 {
   font-size: 3rem;
   text-align: center;
-}
+}*/
 
-h3 {
+/*h3 {
   font-size: 2.2rem;
-}
+}*/
 
-p, li {
+li {
   font-size: 1.6rem;
   line-height: 1.5;
 }
