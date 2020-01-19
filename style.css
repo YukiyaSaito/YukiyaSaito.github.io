@@ -3,6 +3,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  margin-top: 50px;
 }
 
 html {
@@ -100,9 +101,9 @@ input, li {
   justify-content: space-between;
 }*/
 
-nav, article, aside, footer {
+article, aside, footer {
   /*background-color: white;*/
-  padding: 1%;
+  padding: 0%;
 }
 
 .nav {
@@ -115,7 +116,9 @@ nav, article, aside, footer {
 }
 
 .nav ul {
+  margin-top: 20px;
   padding: 0;
+  padding-left: 10px;
   list-style-type: none;
   flex: 2;
   display: flex;
@@ -128,12 +131,13 @@ nav, article, aside, footer {
 }
 
 .nav a {
-  display: inline-block;
+  display: block;
   font-size: 17px;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
   color: black;
-  width: 25%;
+  padding-right: 100px;
 }
 
 .nav form {
