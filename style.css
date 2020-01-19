@@ -96,13 +96,13 @@ input, li {
 /* || header layout */
 
 nav, article, aside, footer {
-  background-color: white;
+  /*background-color: white;*/
   padding: 1%;
 }
 
 nav {
   height: 50px;
-  background-color: white;
+  /*background-color: white;*/
   display: flex;
   margin-bottom: 10px;
 }
