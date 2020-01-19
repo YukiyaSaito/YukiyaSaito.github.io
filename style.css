@@ -16,7 +16,15 @@ body {
 }
 
 /* || typography */
-h1 { font-family: Open Sans Condensed; font-size: 23px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; } 
+h1 { 
+  font-family: Open Sans Condensed; 
+  font-size: 4rem; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 1.6; 
+  text-align: center;
+} 
 h3 { font-family: Open Sans Condensed; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; } 
 p { font-family: Open Sans Condensed; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } 
 blockquote { font-family: Open Sans Condensed; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } 
