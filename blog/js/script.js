@@ -29,8 +29,6 @@ $("#search-menu").click(function(e){
     }
 });
 
-
-
 /*!
  * classie - class helper functions
  * from bonzo https://github.com/ded/bonzo
