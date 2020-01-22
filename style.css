@@ -16,6 +16,7 @@ body {
   margin: 0 auto;
 }
 
+
 /* || typography */
 h1 { 
   font-family: Georgia, Times, Times New Roman, serif; 
@@ -54,9 +55,10 @@ input, li {
 /* || header layout */
 
 .nav {
-  height: 50px;
+  height: 70px;
   /*background-color: white;*/
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 10px;
   overflow: auto;
   width: 100%;
@@ -69,6 +71,7 @@ input, li {
   list-style-type: none;
   flex: 1;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .nav li {
@@ -131,6 +134,7 @@ main {
 
 article {
   flex: 4;
+  padding-right: 20px;
 }
 
 aside {
@@ -141,6 +145,33 @@ aside {
 
 aside li {
   padding-bottom: 10px;
+}
+
+aside ul {
+  margin-top: 20px;
+  padding: 0;
+  padding-left: 00px;
+  list-style-type: none;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside a {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  padding-right: 100px;
+}
+
+aside a-2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+  padding-right: 100px;
 }
 
 footer {
