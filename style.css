@@ -67,7 +67,7 @@ input, li {
   padding: 0;
   padding-left: 10px;
   list-style-type: none;
-  flex: 2;
+  flex: 1;
   display: flex;
 }
 
