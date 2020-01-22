@@ -165,13 +165,8 @@ aside a {
   padding-right: 100px;
 }
 
-aside a-2 {
-  font-size: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
+aside div {
   opacity: 0.5;
-  padding-right: 100px;
 }
 
 footer {
