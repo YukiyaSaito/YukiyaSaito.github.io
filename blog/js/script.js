@@ -147,6 +147,6 @@ if ( typeof define === 'function' && define.amd ) {
         }
     }
 
-    triggerBttn.addEventListener( 'click', toggleOverlay );
+    triggerBttn.addEventListener( 'click', toggleOverlay ).show();
     closeBttn.addEventListener( 'click', toggleOverlay );
 })();
