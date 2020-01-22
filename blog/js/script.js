@@ -29,6 +29,8 @@ $("#search-menu").click(function(e){
     }
 });
 
+
+
 /*!
  * classie - class helper functions
  * from bonzo https://github.com/ded/bonzo
@@ -147,6 +149,12 @@ if ( typeof define === 'function' && define.amd ) {
         }
     }
 
-    triggerBttn.addEventListener( 'click', toggleOverlay ).show();
+    triggerBttn.addEventListener( 'click', toggleOverlay );
     closeBttn.addEventListener( 'click', toggleOverlay );
 })();
+
+
+$('#nav-overlay li').on('click', function(){
+    $("#nav-overlay").hide();
+    $("#button-toggle").removeClass("active");
+});
