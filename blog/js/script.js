@@ -137,6 +137,7 @@ if ( typeof define === 'function' && define.amd ) {
             };
             if( support.transitions ) {
                 overlay.addEventListener( transEndEventName, onEndTransitionFn );
+                classie.remove( overlay, 'close' );
             }
             else {
                 onEndTransitionFn();
