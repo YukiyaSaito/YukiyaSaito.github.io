@@ -87,6 +87,17 @@ input, li {
   padding-right: 100px;
 }
 
+.nav b {
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding-right: 100px;
+  opacity: 0.5;
+}
+
 .nav form {
   flex: 1;
   display: flex;
