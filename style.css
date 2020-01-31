@@ -172,3 +172,21 @@ aside div {
 footer {
   margin-top: 10px;
 }
+
+/* Table Layout*/
+table {
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 2px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
