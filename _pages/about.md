@@ -1,6 +1,6 @@
 ---
 layout: minimal
-title: home
+title: Home
 permalink: /
 nav: true
 nav_order: 1
@@ -8,20 +8,20 @@ nav_order: 1
 
 <section class="hero">
   <div class="hero-copy">
-    <span class="hero-eyebrow"><a href="https://np3m.org">NP3M</a> Fellow · affiliated with FRIB, UTK, and the University of Notre Dame</span>
-    <h1 class="hero-title">Connecting nuclear theory and experiment, machine learning/AI, and astrophysics to understand the origin of the heaviest elements.</h1>
+    <span class="hero-eyebrow"><a href="https://np3m.org">NP3M</a> Fellow at FRIB, Notre Dame, and UT Knoxville</span>
+    <h1 class="hero-title">Connecting nuclear theory and experiment, machine learning, and astrophysics to understand how the heaviest elements are made.</h1>
 
     <p>
-      I am a nuclear astrophysicist working at the interface of nuclear structure, nuclear decays and reactions, and astrophysical modeling. My research focuses on connecting nuclear theory, experiment to our quantitative understanding of the astrophysical origin of heavy elements, utilizing modern computational techniques such as ML/AI.
+      I am a nuclear astrophysicist working at the interface of nuclear structure, nuclear decays and reactions, and astrophysical modeling. My research aims at a quantitative picture of heavy-element production by combining theoretical models, experimental constraints, and modern computational methods.
     </p>
     <p>
-      As an NP3M Fellow, I work across FRIB, the University of Notre Dame, and the University of Tennessee Knoxville on nuclear density functional theory (DFT), emulators, Bayesian statistics, and nucleosynthesis simulations.
+      As an NP3M Fellow, I work across FRIB, the University of Notre Dame, and the University of Tennessee Knoxville on theoretical and computational methods for r-process studies, DFT-based nuclear data, emulators, Bayesian inference, and nucleosynthesis simulations.
     </p>
 
     <div class="hero-actions">
       <a class="button-link" href="{{ '/publications/' | relative_url }}">View publications</a>
       <a class="button-link is-secondary" href="{{ '/assets/pdf/Yukiya_Saito_CV_2026.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Download CV</a>
-      <a class="button-link is-secondary" href="mailto:saito@triumf.ca">Email me</a>
+      <a class="button-link is-secondary" href="mailto:yukiya4717@gmail.com">Email me</a>
     </div>
     <div class="link-list social-links">
       <a href="https://github.com/YukiyaSaito" aria-label="GitHub profile" title="GitHub profile">
@@ -42,12 +42,12 @@ nav_order: 1
   </div>
   <div class="pictogram-card">
     <span class="pictogram-icon" aria-hidden="true"><i class="fa-solid fa-microchip"></i></span>
-    <h2>ML/AI emulation</h2>
-    <p>Surrogate models, emulators, and Bayesian workflows for fast, interpretable physics inference.</p>
+    <h2>ML and AI</h2>
+    <p>Emulators, surrogate models, and Bayesian workflows for fast, interpretable physics inference.</p>
   </div>
   <div class="pictogram-card">
     <span class="pictogram-icon" aria-hidden="true"><i class="fa-solid fa-star"></i></span>
-    <h2>r-process astrophysics</h2>
+    <h2>r-process nucleosynthesis</h2>
     <p>Nucleosynthesis simulations connecting nuclear constraints to the astrophysical origin of heavy elements.</p>
   </div>
 </section>
@@ -56,16 +56,18 @@ nav_order: 1
   <div class="section-card">
     <h2>Current focus</h2>
     <p>
-      I study r-process nucleosynthesis, β-decay properties, emulation of complex simulations, and uncertainty quantification, with particular interest in how nuclear theory, experimental constraints, and ML/AI tools can be combined to understand the origin of the heaviest elements.
+      I study r-process nucleosynthesis, β-decay, nuclear heating, and the emulation of expensive calculations, with particular interest in how theory, experiment, and statistical inference can be combined to produce uncertainty-quantified nuclear input.
     </p>
     <ul class="tag-list">
       <li>r-process</li>
       <li>nuclear theory</li>
-      <li>nuclear reaction network</li>
-      <li>ML/AI</li>
-      <li>Emulator</li>
-      <li>Bayesian Statistics</li>
-      <li>Radioactive beam experiments</li>
+      <li>β-decay</li>
+      <li>DFT-based nuclear data</li>
+      <li>machine learning</li>
+      <li>emulation</li>
+      <li>Bayesian inference</li>
+      <li>uncertainty quantification</li>
+      <li>radioactive-beam experiments</li>
     </ul>
   </div>
 
@@ -98,7 +100,7 @@ nav_order: 1
   <div class="section-card">
     <h2>Current position</h2>
     <p>
-      I am currently an NP3M Fellow with appointments spanning Michigan State University / FRIB, the University of Notre Dame, and the University of Tennessee Knoxville.
+      I am an NP3M Fellow based at FRIB with collaborating appointments at the University of Notre Dame and the University of Tennessee Knoxville. My current program connects nuclear density functional theory, beta-decay systematics, and uncertainty-aware astrophysical modeling for the r-process.
     </p>
   </div>
 
@@ -110,12 +112,12 @@ nav_order: 1
         <span class="timeline-meta">Awarded for doctoral work on statistical tools for the rapid neutron capture process · 2024</span>
       </li>
       <li>
-        <span class="timeline-title">NSF NP3M Fellowship across FRIB, Notre Dame, and UTK</span>
-        <span class="timeline-meta">Cross-institutional research program in nuclear astrophysics and uncertainty-aware nuclear data · 2023–2026</span>
+        <span class="timeline-title">FRIB Theory Alliance Fellow shortlist</span>
+        <span class="timeline-meta">Recognized in the 2025 FRIB Theory Alliance Fellow competition</span>
       </li>
       <li>
-        <span class="timeline-title">First-author work on β-decay, neural-network emulation, and Bayesian mass-model uncertainty quantification</span>
-        <span class="timeline-meta">Phys. Rev. C, ApJ, and J. Phys. G · 2024–2026</span>
+        <span class="timeline-title">Invited talks across FRIB, Notre Dame, Ohio University, and CAP Congress</span>
+        <span class="timeline-meta">FRIB Theory Alliance Fellow seminar, FRIB beta-decay topical program, Notre Dame Nuclear Seminar, INPP Seminar, and BAND Retreat · 2024–2025</span>
       </li>
     </ul>
   </div>
@@ -123,7 +125,7 @@ nav_order: 1
   <div class="section-card">
     <h2>Teaching and mentoring</h2>
     <p>
-      I care deeply about physics education and mentoring. My teaching includes a substitute lecture at Notre Dame in 2024, several years as a teaching assistant for undergraduate physics at UBC, and leadership roles as both Head TA and Head TA Coordinator. I have also mentored graduate and undergraduate researchers across Notre Dame, FRIB, TRIUMF, and UBC on projects in r-process nuclear data, computational methods, deep learning applications, nuclear structure, and radioactive waste transmutation.
+      I aim to help train the next generation of scientists by sharing knowledge, practical skills, and a collaborative approach to research. My teaching includes a substitute lecture at Notre Dame in 2024, several years as a teaching assistant for undergraduate physics at UBC, and leadership roles as both Head TA and Head TA Coordinator. I have mentored graduate and undergraduate researchers across Notre Dame, FRIB, TRIUMF, and UBC on projects spanning r-process nuclear data, nuclear heating, deep learning for ALPHA-g, nuclear structure, and radioactive-waste transmutation.
     </p>
     <div class="link-list">
       <a href="https://github.com/YukiyaSaito">GitHub</a>

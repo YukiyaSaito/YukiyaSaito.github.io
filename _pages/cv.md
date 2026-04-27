@@ -1,7 +1,7 @@
 ---
 layout: minimal
 permalink: /cv/
-title: cv
+title: CV
 nav: true
 nav_order: 3
 description: Curriculum vitae and background summary.
@@ -10,7 +10,7 @@ description: Curriculum vitae and background summary.
 <section class="page-intro">
 	<h1 class="page-heading">CV</h1>
 	<p>
-		A concise overview of my appointments, training, funding, teaching, and service is below. For the full document, use the download link.
+		This page gives a concise view of my current appointments, training, selected talks, funding, teaching, mentoring, and service. For the full record, use the PDF.
 	</p>
 </section>
 
@@ -28,9 +28,9 @@ description: Curriculum vitae and background summary.
 <section class="section-list" style="margin-top: 1.5rem;">
 	<div class="section-card">
 		<h2>Current role</h2>
-		<p>NP3M Fellow with appointments across Michigan State University / FRIB, the University of Notre Dame, and the University of Tennessee Knoxville.</p>
+		<p>NP3M Fellow based at Michigan State University / FRIB with collaborating appointments at the University of Notre Dame and the University of Tennessee Knoxville.</p>
 		<p>Current project: development and application of statistical methods for r-process studies and DFT-based nuclear data.</p>
-		<p>Advisors: Rebecca Surman, Witold Nazarewicz, and Andrew W. Steiner.</p>
+		<p>Working with Rebecca Surman, Witold Nazarewicz, and Andrew W. Steiner.</p>
 	</div>
 
 	<div class="section-card">
@@ -59,100 +59,130 @@ description: Curriculum vitae and background summary.
 	<ul class="tag-list">
 		<li>nuclear astrophysics</li>
 		<li>r-process studies</li>
+		<li>beta decay</li>
+		<li>nuclear density functional theory</li>
+		<li>Bayesian inference</li>
+		<li>emulators</li>
 		<li>machine learning</li>
-		<li>AI for physics</li>
 		<li>uncertainty quantification</li>
 		<li>physics education</li>
 		<li>mentoring</li>
 	</ul>
 </section>
 
-<section class="section-card" style="margin-top: 1.5rem;">
-	<h2>Research funding and support</h2>
-	<ul class="timeline-list">
-		<li>
-			<span class="timeline-title">NSF Research Hub: Nuclear Physics from Multi-Messenger Mergers Fellowship</span>
-			<span class="timeline-meta">2023–2026</span>
-		</li>
-		<li>
-			<span class="timeline-title">NSERC CREATE IsoSiM Stipend</span>
-			<span class="timeline-meta">2016–2018</span>
-		</li>
-		<li>
-			<span class="timeline-title">NSF ACCESS allocation</span>
-			<span class="timeline-meta">2025</span>
-			<p>PHYS250120 — Large-scale calculation of beta-delayed neutron emission probabilities and implications for r-process nucleosynthesis.</p>
-		</li>
-	</ul>
-</section>
+<section class="section-stack">
+	<div class="section-card">
+		<h2>Selected invited presentations</h2>
+		<ul class="timeline-list">
+			<li>
+				<span class="timeline-title">FRIB Theory Alliance Fellow Candidate Seminar</span>
+				<span class="timeline-meta">Facility for Rare Isotope Beams · Dec 2025</span>
+				<p>From Nuclear DFT to the Heaviest Elements: Toward Uncertainty-Quantified Nuclear Physics Input for the Astrophysical Rapid Neutron Capture Process.</p>
+			</li>
+			<li>
+				<span class="timeline-title">FRIB-TA Topical Program: Future directions in nuclear beta decay at FRIB</span>
+				<span class="timeline-meta">Facility for Rare Isotope Beams · Sep 2025</span>
+				<p>Effect of beta decay on r-process dynamics.</p>
+			</li>
+			<li>
+				<span class="timeline-title">CAP Congress</span>
+				<span class="timeline-meta">Saskatoon, Canada · Jun 2025</span>
+				<p>Statistical tools for r-process nucleosynthesis studies.</p>
+			</li>
+			<li>
+				<span class="timeline-title">BAND Collaboration Retreat</span>
+				<span class="timeline-meta">Ohio University · Jul 2024</span>
+				<p>Uncertainty quantification of nuclear mass models using ensemble Bayesian model averaging.</p>
+			</li>
+		</ul>
+	</div>
 
-<section class="section-card" style="margin-top: 1.5rem;">
-	<h2>Honors and awards</h2>
-	<ul class="timeline-list">
-		<li>
-			<span class="timeline-title">FRIB Theory Alliance Fellow Shortlist</span>
-			<span class="timeline-meta">2025</span>
-		</li>
-		<li>
-			<span class="timeline-title">2023–24 CAP DNP PhD Thesis Prize</span>
-			<span class="timeline-meta">2024</span>
-		</li>
-		<li>
-			<span class="timeline-title">President's Academic Excellence Initiative PhD Award</span>
-			<span class="timeline-meta">2020–2022</span>
-		</li>
-		<li>
-			<span class="timeline-title">Faculty of Science PhD Tuition Award</span>
-			<span class="timeline-meta">2018–2022</span>
-		</li>
-	</ul>
-</section>
+	<div class="section-card">
+		<h2>Research funding and support</h2>
+		<ul class="timeline-list">
+			<li>
+				<span class="timeline-title">NSF Research Hub: Nuclear Physics from Multi-Messenger Mergers Fellowship</span>
+				<span class="timeline-meta">2023–2026</span>
+			</li>
+			<li>
+				<span class="timeline-title">NSERC CREATE IsoSiM Stipend</span>
+				<span class="timeline-meta">2016–2018</span>
+			</li>
+			<li>
+				<span class="timeline-title">NSF ACCESS allocation</span>
+				<span class="timeline-meta">2025</span>
+				<p>PHYS250120 — Large-scale calculation of beta-delayed neutron emission probabilities and implications for r-process nucleosynthesis; 750k credits.</p>
+			</li>
+		</ul>
+	</div>
 
-<section class="section-card" style="margin-top: 1.5rem;">
-	<h2>Teaching history</h2>
-	<ul class="timeline-list">
-		<li>
-			<span class="timeline-title">Substitute Lecture</span>
-			<span class="timeline-meta">PHYS 10411 — Physics A: Mechanics, Angular Momentum · University of Notre Dame · 2024</span>
-		</li>
-		<li>
-			<span class="timeline-title">Teaching Assistant</span>
-			<span class="timeline-meta">University of British Columbia · 2016–2023</span>
-			<p>PHYS 157 and 158 (Introductory Engineering Physics), PHYS 159 (Introductory Physics Laboratory for Engineers), PHYS 219 (Intermediate Experimental Physics I — Electronics), and PHYS 319 (Electronics Laboratory — Microprocessors).</p>
-		</li>
-		<li>
-			<span class="timeline-title">Head TA Coordinator</span>
-			<span class="timeline-meta">Teaching Assistant Professional Development Committee, Department of Physics and Astronomy, UBC · 2018–2022</span>
-		</li>
-		<li>
-			<span class="timeline-title">Head Teaching Assistant</span>
-			<span class="timeline-meta">PHYS 157 and 158, Department of Physics and Astronomy, UBC · 2017–2019</span>
-		</li>
-	</ul>
-</section>
+	<div class="section-card">
+		<h2>Honors and awards</h2>
+		<ul class="timeline-list">
+			<li>
+				<span class="timeline-title">FRIB Theory Alliance Fellow Shortlist</span>
+				<span class="timeline-meta">2025</span>
+			</li>
+			<li>
+				<span class="timeline-title">2023–24 CAP DNP PhD Thesis Prize</span>
+				<span class="timeline-meta">2024</span>
+			</li>
+			<li>
+				<span class="timeline-title">International Tuition Award</span>
+				<span class="timeline-meta">University of British Columbia · 2016–2023</span>
+			</li>
+			<li>
+				<span class="timeline-title">President's Academic Excellence Initiative PhD Award</span>
+				<span class="timeline-meta">University of British Columbia · 2020–2022</span>
+			</li>
+			<li>
+				<span class="timeline-title">IReNA Travel Support and WNPPC Student Travel Award</span>
+				<span class="timeline-meta">2022 and 2018</span>
+			</li>
+			<li>
+				<span class="timeline-title">Strategic Partnership and study-abroad scholarships</span>
+				<span class="timeline-meta">University of Tokyo · 2013–2015</span>
+			</li>
+		</ul>
+	</div>
 
-<section class="section-card" style="margin-top: 1.5rem;">
-	<h2>Mentoring and service</h2>
-	<ul class="timeline-list">
-		<li>
-			<span class="timeline-title">Graduate student mentoring</span>
-			<span class="timeline-meta">Notre Dame · 2023–present</span>
-			<p>Mentored Ashabari Majundar and Pranav Nalamwar on r-process nuclear data and computational methods.</p>
-		</li>
-		<li>
-			<span class="timeline-title">Undergraduate mentoring</span>
-			<span class="timeline-meta">FRIB, TRIUMF, and UBC · 2021–2025</span>
-			<p>Mentored projects in nuclear structure, ALPHA-g deep learning reconstruction, reaction networks, and radioactive waste transmutation.</p>
-		</li>
-		<li>
-			<span class="timeline-title">Community service</span>
-			<span class="timeline-meta">FRIB and UBC</span>
-			<p>Served on the FRIB Seminar and Research Discussion Committee and as Head TA Coordinator for the UBC Physics and Astronomy teaching assistant development program.</p>
-		</li>
-		<li>
-			<span class="timeline-title">Refereeing</span>
-			<span class="timeline-meta">Recent journals</span>
-			<p>Journal of Physics G, Machine Learning: Science and Technology, and Nature Communications Physics.</p>
-		</li>
-	</ul>
+	<div class="section-card">
+		<h2>Teaching and mentoring</h2>
+		<ul class="timeline-list">
+			<li>
+				<span class="timeline-title">Teaching</span>
+				<span class="timeline-meta">University of Notre Dame and UBC · 2016–2024</span>
+				<p>Includes a substitute lecture for PHYS 10411 at Notre Dame, multi-year teaching assistant roles across introductory and electronics courses at UBC, and leadership service as both Head TA and Head TA Coordinator.</p>
+			</li>
+			<li>
+				<span class="timeline-title">Graduate mentoring</span>
+				<span class="timeline-meta">University of Notre Dame · 2023–present</span>
+				<p>Mentored Ashabari Majundar on neutron-capture-rate effects in the r-process and Pranav Nalamwar on computational methods for nuclear heating.</p>
+			</li>
+			<li>
+				<span class="timeline-title">Undergraduate mentoring</span>
+				<span class="timeline-meta">FRIB, TRIUMF, and UBC · 2021–2025</span>
+				<p>Mentored projects in nuclear structure, ALPHA-g deep learning reconstruction, reaction-network development, and radioactive-waste transmutation. Student outcomes include a JHEP-accepted paper and first place in the Canadian Astroparticle Summer Student Talk Competition.</p>
+			</li>
+		</ul>
+	</div>
+
+	<div class="section-card">
+		<h2>Service and refereeing</h2>
+		<ul class="timeline-list">
+			<li>
+				<span class="timeline-title">Seminar and Research Discussion Committee</span>
+				<span class="timeline-meta">Facility for Rare Isotope Beams · 2025–present</span>
+			</li>
+			<li>
+				<span class="timeline-title">Head TA Coordinator</span>
+				<span class="timeline-meta">UBC Physics and Astronomy Teaching Assistant Professional Development Program · 2018–2022</span>
+			</li>
+			<li>
+				<span class="timeline-title">Refereeing</span>
+				<span class="timeline-meta">Recent journals</span>
+				<p>Journal of Physics G: Nuclear and Particle Physics, Machine Learning: Science and Technology, and Nature Communications Physics.</p>
+			</li>
+		</ul>
+	</div>
 </section>
