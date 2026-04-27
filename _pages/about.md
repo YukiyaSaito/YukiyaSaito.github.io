@@ -8,7 +8,7 @@ nav_order: 1
 
 <section class="hero">
   <div class="hero-copy">
-    <span class="hero-eyebrow"><a href="https://np3m.org">NP3M</a> Fellow at FRIB, Notre Dame, and UT Knoxville</span>
+    <span class="hero-eyebrow"><a class="hero-eyebrow-link" href="https://np3m.org">NP3M</a> Fellow at FRIB, Notre Dame, and UT Knoxville</span>
     <h1 class="hero-title">Connecting nuclear theory and experiment, machine learning, and astrophysics to understand how the heaviest elements are made.</h1>
 
     <p>
